@@ -30,12 +30,12 @@ Used LASSO regression to determine which variables are most predictive of log(do
 ## Detailed Analysis
 
 ### Regression Results
-| Variable            | Coefficient | Standard Error | t-Statistic | p-Value |
-|---------------------|-------------|----------------|-------------|---------|
-| Mean KLD            | 0.234       | 0.045          | 5.20        | 0.000   |
-| Variance of KLD     | 0.198       | 0.038          | 5.21        | 0.000   |
-| Slope of KLD        | 0.102       | 0.021          | 4.86        | 0.000   |
-
+| Variable       | Coefficient | Standard Error | t-Statistic | p-Value |
+|----------------|-------------|----------------|-------------|---------|
+| const          | 3.3044      | 0.117          | 28.360      | 0.000   |
+| avg_kld        | -0.1837     | 0.490          | -0.375      | 0.707   |
+| var_kld        | 18.7051     | 4.060          | 4.608       | 0.000   |
+| slope_kld      | -114.8077   | 14.470         | -7.934      | 0.000   |
 
 ### Variable Construction
 - **Mean KLD**: Average of KLD scores for each book.
